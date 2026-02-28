@@ -2,6 +2,8 @@
 
 This repository contains my submission for the **Machine Learning Internship** at **Coding Samurai**. The goal of this project was to build a machine learning model that predicts whether a customer is likely to churn (leave a service) based on behavioral and demographic data.
 
+Find the original dataset at: https://www.kaggle.com/datasets/abdullah0a/telecom-customer-churn-insights-for-analysis?
+
 ## 🚀 Project Overview
 
 Customer churn is a critical metric for businesses. By predicting churn, companies can proactively engage at-risk customers. This project involves:
