@@ -37,3 +37,38 @@ Customer churn is a critical metric for businesses. By predicting churn, compani
    ```bash
    git clone [https://github.com/imaadMMI/CODING-SAMURAI-INTERNSHIP-TASK.git](https://github.com/imaadMMI/CODING-SAMURAI-INTERNSHIP-TASK.git)
    cd CODING-SAMURAI-INTERNSHIP-TASK
+2. **Install dependencies:**
+   ```bash
+   pip install streamlit joblib scikit-learn pandas numpy
+3. **Run the Streamlit app:**
+   ```bash
+   streamlit run app.py
+
+## How it works
+
+Model & Methodology
+The model analyzes four primary features to determine churn probability:
+
+- Age
+
+- Gender (Encoded: Female = 1, Male = 0)
+
+- Monthly Charges
+
+- Tenure (Months stayed with the service)
+
+Workflow:
+The input data is first passed through scaler.pkl to ensure the values match the distribution the model was trained on, then fed into the classifier to output a "Churn" or "No Churn" result.
+
+
+<img width="2048" height="2048" alt="image" src="https://github.com/user-attachments/assets/a9701dfc-64ab-4599-af8a-363cc1a5158a" />
+
+
+## 📊 Results & Insights
+Based on the analysis in notebook.ipynb:
+
+- Tenure Impact: Customers with shorter tenure are significantly more likely to churn, suggesting that early-stage engagement is critical.
+
+- Financial Stress: Higher monthly charges correlate with higher churn rates, indicating price sensitivity among the customer base.
+
+- Accuracy: The classification model provides a robust baseline for identifying at-risk customers, allowing for targeted retention strategies.
